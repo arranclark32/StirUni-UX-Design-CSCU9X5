@@ -1,0 +1,395 @@
+:root {
+    --colour-body: #F6F5F4;
+    --colour-text: #3a3c39;
+    --colour-heritage: #016938;
+    --colour-energy: #78BF23;
+    --colour-berry: #9d1e65;
+    --colour-berrylight: #e1acca;
+    --colour-white: #FFFFFF;
+    --sidebar-width: 240px;
+    --font-base: 'PT Sans';
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  background-color: var(--colour-body);
+  color: var(--colour-text);
+  font-family: var(--font-base);
+  position: relative;
+}
+
+h1,h2,h3 {
+  color: var(--colour-heritage);
+  font-weight: 600;
+}
+
+h4,h5 {
+  color: var(--colour-body);
+  font-weight: 600;
+}
+
+h6 {
+  color: var(--colour-text);
+  font-weight: 600;
+}
+
+a {
+  color: var(--colour-body);
+  text-decoration: none;
+  transition: all 0.4 ease;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--colour-heritage);
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+  color: var(--colour-energy);
+}
+
+.navbar-brand img {
+  height: 35px;
+}
+
+.row {
+  padding: 4%;
+}
+
+/* Button */
+.btn {
+  padding: 9px 20px;
+  font-weight: 500;
+}
+
+.btn-brand {
+  color: var(--colour-white);
+  background-color: var(--colour-heritage);
+  border-color: var(--colour-white);
+}
+
+.btn-brand:hover {
+  background-color: var(--colour-white);
+  color: var(--colour-heritage);
+}
+
+.btn-light {
+  background-color: var(--colour-body);
+  color: var(--colour-heritage);
+  border-color: var(--colour-body);
+}
+
+.btn-light:hover {
+  color: var(--colour-text);
+  background-color: var(--colour-body);
+}
+
+.btn-primary {
+  background-color: var(--colour-heritage);
+  color: var(--colour-white);
+  border-color: var(--colour-heritage);
+}
+
+.btn-primary:hover {
+  color: var(--colour-heritage);
+  background-color: var(--colour-body);
+  border-color: var(--colour-heritage);
+}
+
+/* Carousel */
+.c-item {
+  height: 640px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(25%);
+}
+
+.slideHead {
+  font-weight: 500;
+}
+
+.slideHead:after {
+  content:"";
+  display:block;
+  width: 4em;
+  max-width:80%;
+  border-bottom: 2px solid var(--colour-energy);
+  margin:auto;
+}
+
+.card h3 {
+  font-weight: 500;
+}
+
+.card-text {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.carousel-caption {
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 span{
+  color: var(--colour-body);
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+.jumbotron {
+  background-color: var(--colour-body);
+}
+
+.langSec {
+  background-color: var(--colour-heritage);
+}
+
+.langtxt {
+  color: var(--colour-body);
+}
+
+.explore-image1 {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(Media/students.jpeg);
+  background-attachment: fixed;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  padding-top: 25px;
+  background-color: var(--colour-text);
+  overflow: hidden
+}
+
+.disclaimer {
+  color: var(--colour-body);
+  font-size: small;
+  margin-top: 40px;
+}
+
+.whiteFull {
+  position: relative;
+}
+
+.whiteFull:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background: var(--colour-white);
+}
+
+.lowerHero {
+  height: 300px;
+  background-image: url(Media/bracket-pattern-dl.png);
+}
+
+.lowerHero h2 {
+  padding-top: 30px;
+  color: var(--colour-body);
+}
+
+.lowerHero p {
+  color: var(--colour-body);
+}
+
+.testimonialBanner {
+  height: 280px;
+  background-image: url(Media/bracket-pattern-dl.png);
+}
+
+.testimonialBanner h2 {
+  padding-top: 30px;
+  color: var(--colour-body);
+}
+
+.testimonialBanner p {
+  color: var(--colour-body);
+}
+
+.video-scrollspy {
+  position: fixed;
+}
+
+.list-group-item {
+  color: var(--colour-heritage);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.list-group-item.active {
+  color: var(--colour-text);
+  background-color: var(--colour-white);
+  border-color: transparent;
+}
+
+.canvasVid {
+  padding: 4%;
+}
+
+.mapSection {
+  position: relative;
+}
+
+.mapSection:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background: var(--colour-white);
+}
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+  background-color: var(--colour-white);
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 200px;
+  height: 200px;
+}
+
+.dropdown-divider {
+  background-color: var(--colour-heritage);
+}
+
+.heroWhite {
+  background-color: var(--colour-white);
+}
+
+.card{
+  cursor: pointer;
+  transition: transform .2s; /* Animation */
+}
+
+.card.hover, .card:hover{
+  transform: scale(1.03);
+  z-index: 1000;
+}
+
+.cardCol {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.spotlightHero {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(Media/students-green.png);
+  background-attachment: fixed;
+}
+
+.t-spot {
+  padding-top: 150px;
+  color: var(--colour-body);
+}
+
+.breadcrumb {
+  padding-top: 30px;
+  padding-bottom: 0;
+  background-color: var(--colour-body);
+}
+
+.breadcrumb a {
+  color: var(--colour-heritage);
+}
+
+.whitebg {
+  background-color: var(--colour-white);
+}
+
+.headshot {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.page-link {
+  color: var(--colour-heritage);
+  border: inherit;
+  outline:none;
+}
+
+.page-link:hover {
+  color: var(--colour-text);
+  border: inherit;
+  outline:none;
+  background: none;
+}
+
+@media screen and (max-width: 768px) {
+  .imgRes {
+    padding: 4%;
+  }
+  .list-group {
+    display: none !important;
+  }
+  .display-3 {
+    font-size: 2.5em;
+  }
+  .spotlightHero h2 {
+    font-size: 3.5em;
+  }
+  .lead {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .display-4 {
+    font-size: 2.5em;
+  }
+  .mapCaption {
+    display: none;
+    align-items: center;
+  }
+  
+}
+
+@media screen and (max-width: 452px) {
+  .breadcrumb {
+    padding-top: 60px;
+  }
+  
+}
+
+html {
+  overflow-x: hidden;
+}
+
