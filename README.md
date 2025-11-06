@@ -7,6 +7,8 @@ An interactive web application designed to support current and prospective Unive
 - **Targeted for Stirling CS Students:** Content and tools focused on the needs of undergrad, incoming and prospective students.
 - **Accessible, Inclusive Design:** AA compliant with WCAG 2.0 standards; responsive layouts for all devices; clear navigation and consistent UI; accessible to all ages and backgrounds.
 
+![Stirling Uni CS Hub Screenshot](https://github.com/arranclark32/StirUni-UX-Design-CSCU9X5/blob/main/Media/SU_Web_SS1.png "Home Page")
+
 ## Design Principles
 
 - Branding and visual assets follow University of Stirling brand guidelines for familiarity and consistency.
@@ -14,6 +16,8 @@ An interactive web application designed to support current and prospective Unive
 - Navigation supports both desktop and mobile users (hamburger menus, sticky nav bar, breadcrumbs).
 - All multimedia has descriptive alt text; semantic HTML and plain English enable easy translation and accessibility.
 - High-contrast, non-distracting palette suitable for users with color perception differences and neurodiverse students.
+
+![Stirling Uni CS Map Screenshot](https://github.com/arranclark32/StirUni-UX-Design-CSCU9X5/blob/main/Media/SU_Web_SS2.png "Explore Page with Map Magnifyer")
 
 ## Usage
 
